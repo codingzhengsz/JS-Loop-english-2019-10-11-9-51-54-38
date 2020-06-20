@@ -10,3 +10,10 @@ Create a new index.js file and write a loop in any way to achieve the following 
 19 is odd number.
 20 is even number.
 ```
+
+```javascript
+for (var i =1;i<=20;i++) {
+	if (i % 2 == 0) console.log(i + ' is even number.')
+	else console.log(i + ' is odd number.')
+}
+```
